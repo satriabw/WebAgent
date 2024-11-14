@@ -104,8 +104,9 @@ class WebVoyager(Agent):
 
     @chain_decorator
     async def mark_page(self, page):
-        with open("mark_page.js") as f:
+        with open("./js/mark_page.js") as f:
             mark_page_script = f.read()
+
         await page.evaluate(mark_page_script)
         for _ in range(10):
             try:
