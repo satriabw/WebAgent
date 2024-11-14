@@ -6,9 +6,7 @@ WebAgent is an intelligent web automation tool that helps you automate browser-b
 
 - Browser automation with advanced AI capabilities
 - Natural language processing for web interactions
-- Customizable automation workflows
 - Multi-browser support
-- Detailed logging and reporting
 
 ## 📋 Prerequisites
 
